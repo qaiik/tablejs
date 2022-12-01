@@ -30,6 +30,7 @@ let styling = {
   td: "border: 1px solid black; padding: 5px;",
   th: "border: 1px solid black; padding: 5px;"
 }
+
 let t = new Table(data,styling);
 t.append(document.body);
 ```
